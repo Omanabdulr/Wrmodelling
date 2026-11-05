@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -83,6 +83,7 @@
     }
     .nav { display: flex; min-height: 76px; align-items: center; justify-content: space-between; }
     .brand { display: inline-flex; align-items: center; gap: 11px; font: 700 1rem var(--font-display); letter-spacing: -.04em; }
+    .brand-logo { display: block; width: auto; height: 48px; }
     .brand-mark { display: grid; width: 34px; height: 34px; place-items: center; border: 1px solid var(--accent); color: var(--accent); font-size: .76rem; letter-spacing: -.08em; }
     .brand span:last-child { color: var(--muted); font-size: .68rem; font-weight: 500; letter-spacing: .08em; }
     .nav-links { display: flex; align-items: center; gap: 34px; color: #c4c9c2; font-size: .87rem; }
@@ -213,8 +214,7 @@
   <header class="site-header">
     <nav class="nav container" aria-label="Navigasi utama">
       <a class="brand" href="#beranda" aria-label="WR 3D Modelling, beranda">
-        <span class="brand-mark">WR</span>
-        <span>3D MODELLING</span>
+        <img class="brand-logo" src="gambar/wrlogo.png" alt="WR Modelling">
       </a>
       <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-links">
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
